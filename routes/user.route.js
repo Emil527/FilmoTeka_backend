@@ -24,7 +24,7 @@ router.post(
 		.custom(async value => {
 			const user = await User.findOne({ email: value });
 			if (user)
-				return Promise.reject('email с таким именем уже существует');
+				return Promise.reject('email с таким именем уже сущестует');
 		}),
 	body('password')
 		.isLength({ min: 5 })
