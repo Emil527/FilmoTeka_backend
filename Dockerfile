@@ -9,4 +9,4 @@ RUN npm install -g npm@9.7.1
 RUN npm start
 
 # Define the entry point for the container
-CMD ["npm", "start"]
+CMD ["npm", "start","nodemon"]
