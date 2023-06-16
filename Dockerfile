@@ -1,10 +1,10 @@
-FROM node:20
+FROM node:18
 
 WORKDIR /app
 
 COPY . /app
 
-RUN npm install -g npm@9.7.1
+RUN npm install 
 
 RUN npm start
 
