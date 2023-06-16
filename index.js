@@ -5,6 +5,8 @@ import 'dotenv/config';
 import routes from './routes/index.js';
 import mongoose from 'mongoose';
 
+
+
 const app = express();
 
 app.use(express.json());
