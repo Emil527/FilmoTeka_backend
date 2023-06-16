@@ -8,3 +8,5 @@ RUN npm install
 
 RUN npm start
 
+# Define the entry point for the container
+CMD ["npm", "start"]
